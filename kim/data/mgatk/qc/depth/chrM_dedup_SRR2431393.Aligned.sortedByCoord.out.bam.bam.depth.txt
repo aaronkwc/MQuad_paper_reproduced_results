@@ -1,0 +1,1 @@
+chrM_dedup_SRR2431393.Aligned.sortedByCoord.out.bam.bam	291.83

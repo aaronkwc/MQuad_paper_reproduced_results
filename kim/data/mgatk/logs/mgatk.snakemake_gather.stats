@@ -1,0 +1,88 @@
+{
+    "total_runtime": 22.612815618515015,
+    "rules": {
+        "make_final_sparse_matrices": {
+            "mean-runtime": 20.9350368976593,
+            "min-runtime": 20.9350368976593,
+            "max-runtime": 20.9350368976593
+        },
+        "make_depth_table": {
+            "mean-runtime": 1.6692986488342285,
+            "min-runtime": 1.6692986488342285,
+            "max-runtime": 1.6692986488342285
+        },
+        "all": {
+            "mean-runtime": 0.0005452632904052734,
+            "min-runtime": 0.0005452632904052734,
+            "max-runtime": 0.0005452632904052734
+        }
+    },
+    "files": {
+        "mgatk/final/mgatk.A.txt.gz": {
+            "start-time": "Mon Sep  6 17:09:56 2021",
+            "stop-time": "Mon Sep  6 17:10:17 2021",
+            "duration": 20.9350368976593,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "mgatk/final/mgatk.C.txt.gz": {
+            "start-time": "Mon Sep  6 17:09:56 2021",
+            "stop-time": "Mon Sep  6 17:10:17 2021",
+            "duration": 20.9350368976593,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "mgatk/final/mgatk.G.txt.gz": {
+            "start-time": "Mon Sep  6 17:09:56 2021",
+            "stop-time": "Mon Sep  6 17:10:17 2021",
+            "duration": 20.9350368976593,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "mgatk/final/mgatk.T.txt.gz": {
+            "start-time": "Mon Sep  6 17:09:56 2021",
+            "stop-time": "Mon Sep  6 17:10:17 2021",
+            "duration": 20.9350368976593,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "mgatk/final/mgatk.coverage.txt.gz": {
+            "start-time": "Mon Sep  6 17:09:56 2021",
+            "stop-time": "Mon Sep  6 17:10:17 2021",
+            "duration": 20.9350368976593,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "mgatk/final/mgatk.depthTable.txt": {
+            "start-time": "Mon Sep  6 17:10:17 2021",
+            "stop-time": "Mon Sep  6 17:10:18 2021",
+            "duration": 1.6692986488342285,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        }
+    }
+}
