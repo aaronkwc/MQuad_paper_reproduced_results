@@ -1,0 +1,12 @@
+**/cellSNP.cells.vcf.gz
+droplet_based_data/5seq_data/cellsnp/cellSNP.cells.vcf.gz
+droplet_based_data/TNBC1_data/cellsnp/cellSNP.cells.vcf.gz
+droplet_based_data/TNBC2_data/cellsnp/cellSNP.cells.vcf.gz
+droplet_based_data/TNBC5_data/cellsnp/cellSNP.cells.vcf.gz
+mkn45/data/cellsnp/cellSNP.cells.vcf.gz
+mkn45/data/compare/cellsnp_half_depth/cellSNP.cells.vcf.gz
+mkn45/data/compare/cellsnp_quarter_depth/cellSNP.cells.vcf.gz
+mkn45/data/compare/cellsnp_sixth_depth/cellSNP.cells.vcf.gz
+mkn45/data/compare/cellsnp_third_depth/cellSNP.cells.vcf.gz
+simulation/data/10_clonal_variants_fixedAF10pct/cellsnp/cellSNP.base.vcf.gz
+simulation/data/10_clonal_variants_fixedAF10pct/cellsnp/cellSNP.cells.vcf.gz

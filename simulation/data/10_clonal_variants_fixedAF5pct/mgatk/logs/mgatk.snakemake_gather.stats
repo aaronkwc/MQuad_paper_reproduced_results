@@ -1,0 +1,88 @@
+{
+    "total_runtime": 11.615562677383423,
+    "rules": {
+        "make_final_sparse_matrices": {
+            "mean-runtime": 10.22045612335205,
+            "min-runtime": 10.22045612335205,
+            "max-runtime": 10.22045612335205
+        },
+        "make_depth_table": {
+            "mean-runtime": 1.3851232528686523,
+            "min-runtime": 1.3851232528686523,
+            "max-runtime": 1.3851232528686523
+        },
+        "all": {
+            "mean-runtime": 0.0008058547973632812,
+            "min-runtime": 0.0008058547973632812,
+            "max-runtime": 0.0008058547973632812
+        }
+    },
+    "files": {
+        "simulation_Doge/10_clonal_variants_fixedAF5pct/mgatk/final/mgatk.A.txt.gz": {
+            "start-time": "Tue Aug 24 16:27:29 2021",
+            "stop-time": "Tue Aug 24 16:27:39 2021",
+            "duration": 10.22045612335205,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "simulation_Doge/10_clonal_variants_fixedAF5pct/mgatk/final/mgatk.C.txt.gz": {
+            "start-time": "Tue Aug 24 16:27:29 2021",
+            "stop-time": "Tue Aug 24 16:27:39 2021",
+            "duration": 10.22045612335205,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "simulation_Doge/10_clonal_variants_fixedAF5pct/mgatk/final/mgatk.G.txt.gz": {
+            "start-time": "Tue Aug 24 16:27:29 2021",
+            "stop-time": "Tue Aug 24 16:27:39 2021",
+            "duration": 10.22045612335205,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "simulation_Doge/10_clonal_variants_fixedAF5pct/mgatk/final/mgatk.T.txt.gz": {
+            "start-time": "Tue Aug 24 16:27:29 2021",
+            "stop-time": "Tue Aug 24 16:27:39 2021",
+            "duration": 10.22045612335205,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "simulation_Doge/10_clonal_variants_fixedAF5pct/mgatk/final/mgatk.coverage.txt.gz": {
+            "start-time": "Tue Aug 24 16:27:29 2021",
+            "stop-time": "Tue Aug 24 16:27:39 2021",
+            "duration": 10.22045612335205,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "simulation_Doge/10_clonal_variants_fixedAF5pct/mgatk/final/mgatk.depthTable.txt": {
+            "start-time": "Tue Aug 24 16:27:39 2021",
+            "stop-time": "Tue Aug 24 16:27:41 2021",
+            "duration": 1.3851232528686523,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        }
+    }
+}

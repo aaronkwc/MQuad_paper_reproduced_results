@@ -1,0 +1,1096 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 10
+Rules claiming more threads will be scaled down.
+Job stats:
+job                   count    min threads    max threads
+------------------  -------  -------------  -------------
+all                       1              1              1
+make_sample_list          1              1              1
+process_one_sample       90              1              1
+total                    92              1              1
+
+
+[Tue Aug 17 17:30:46 2021]
+rule process_one_sample:
+    input: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/.internal/samples/16.somatosim.bam.txt
+    output: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/16.somatosim.qc.bam, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/16.somatosim.qc.bam.bai, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/16.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/16.somatosim.A.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/16.somatosim.C.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/16.somatosim.G.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/16.somatosim.T.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/16.somatosim.coverage.txt
+    jobid: 9
+    wildcards: sample=16.somatosim
+    resources: tmpdir=/tmp
+
+[Tue Aug 17 17:30:46 2021]
+rule process_one_sample:
+    input: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/.internal/samples/57.somatosim.bam.txt
+    output: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/57.somatosim.qc.bam, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/57.somatosim.qc.bam.bai, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/57.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/57.somatosim.A.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/57.somatosim.C.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/57.somatosim.G.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/57.somatosim.T.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/57.somatosim.coverage.txt
+    jobid: 54
+    wildcards: sample=57.somatosim
+    resources: tmpdir=/tmp
+
+[Tue Aug 17 17:30:46 2021]
+rule process_one_sample:
+    input: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/.internal/samples/84.somatosim.bam.txt
+    output: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/84.somatosim.qc.bam, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/84.somatosim.qc.bam.bai, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/84.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/84.somatosim.A.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/84.somatosim.C.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/84.somatosim.G.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/84.somatosim.T.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/84.somatosim.coverage.txt
+    jobid: 84
+    wildcards: sample=84.somatosim
+    resources: tmpdir=/tmp
+
+[Tue Aug 17 17:30:46 2021]
+rule process_one_sample:
+    input: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/.internal/samples/18.somatosim.bam.txt
+    output: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/18.somatosim.qc.bam, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/18.somatosim.qc.bam.bai, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/18.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/18.somatosim.A.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/18.somatosim.C.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/18.somatosim.G.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/18.somatosim.T.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/18.somatosim.coverage.txt
+    jobid: 11
+    wildcards: sample=18.somatosim
+    resources: tmpdir=/tmp
+
+[Tue Aug 17 17:30:46 2021]
+rule process_one_sample:
+    input: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/.internal/samples/59.somatosim.bam.txt
+    output: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/59.somatosim.qc.bam, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/59.somatosim.qc.bam.bai, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/59.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/59.somatosim.A.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/59.somatosim.C.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/59.somatosim.G.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/59.somatosim.T.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/59.somatosim.coverage.txt
+    jobid: 56
+    wildcards: sample=59.somatosim
+    resources: tmpdir=/tmp
+
+[Tue Aug 17 17:30:46 2021]
+rule process_one_sample:
+    input: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/.internal/samples/86.somatosim.bam.txt
+    output: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/86.somatosim.qc.bam, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/86.somatosim.qc.bam.bai, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/86.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/86.somatosim.A.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/86.somatosim.C.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/86.somatosim.G.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/86.somatosim.T.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/86.somatosim.coverage.txt
+    jobid: 86
+    wildcards: sample=86.somatosim
+    resources: tmpdir=/tmp
+
+[Tue Aug 17 17:30:46 2021]
+rule process_one_sample:
+    input: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/.internal/samples/58.somatosim.bam.txt
+    output: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/58.somatosim.qc.bam, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/58.somatosim.qc.bam.bai, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/58.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/58.somatosim.A.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/58.somatosim.C.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/58.somatosim.G.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/58.somatosim.T.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/58.somatosim.coverage.txt
+    jobid: 55
+    wildcards: sample=58.somatosim
+    resources: tmpdir=/tmp
+
+[Tue Aug 17 17:30:46 2021]
+rule process_one_sample:
+    input: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/.internal/samples/17.somatosim.bam.txt
+    output: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/17.somatosim.qc.bam, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/17.somatosim.qc.bam.bai, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/17.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/17.somatosim.A.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/17.somatosim.C.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/17.somatosim.G.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/17.somatosim.T.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/17.somatosim.coverage.txt
+    jobid: 10
+    wildcards: sample=17.somatosim
+    resources: tmpdir=/tmp
+
+[Tue Aug 17 17:30:47 2021]
+rule process_one_sample:
+    input: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/.internal/samples/85.somatosim.bam.txt
+    output: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/85.somatosim.qc.bam, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/85.somatosim.qc.bam.bai, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/85.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/85.somatosim.A.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/85.somatosim.C.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/85.somatosim.G.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/85.somatosim.T.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/85.somatosim.coverage.txt
+    jobid: 85
+    wildcards: sample=85.somatosim
+    resources: tmpdir=/tmp
+
+[Tue Aug 17 17:30:47 2021]
+rule process_one_sample:
+    input: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/.internal/samples/19.somatosim.bam.txt
+    output: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/19.somatosim.qc.bam, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/19.somatosim.qc.bam.bai, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/19.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/19.somatosim.A.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/19.somatosim.C.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/19.somatosim.G.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/19.somatosim.T.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/19.somatosim.coverage.txt
+    jobid: 12
+    wildcards: sample=19.somatosim
+    resources: tmpdir=/tmp
+
+[Tue Aug 17 17:30:59 2021]
+Finished job 10.
+1 of 92 steps (1%) done
+
+[Tue Aug 17 17:30:59 2021]
+rule process_one_sample:
+    input: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/.internal/samples/87.somatosim.bam.txt
+    output: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/87.somatosim.qc.bam, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/87.somatosim.qc.bam.bai, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/87.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/87.somatosim.A.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/87.somatosim.C.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/87.somatosim.G.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/87.somatosim.T.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/87.somatosim.coverage.txt
+    jobid: 87
+    wildcards: sample=87.somatosim
+    resources: tmpdir=/tmp
+
+[Tue Aug 17 17:31:04 2021]
+Finished job 55.
+2 of 92 steps (2%) done
+
+[Tue Aug 17 17:31:04 2021]
+rule process_one_sample:
+    input: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/.internal/samples/88.somatosim.bam.txt
+    output: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/88.somatosim.qc.bam, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/88.somatosim.qc.bam.bai, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/88.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/88.somatosim.A.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/88.somatosim.C.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/88.somatosim.G.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/88.somatosim.T.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/88.somatosim.coverage.txt
+    jobid: 88
+    wildcards: sample=88.somatosim
+    resources: tmpdir=/tmp
+
+[Tue Aug 17 17:31:14 2021]
+Finished job 86.
+3 of 92 steps (3%) done
+[Tue Aug 17 17:31:14 2021]
+Finished job 85.
+4 of 92 steps (4%) done
+[Tue Aug 17 17:31:14 2021]
+Finished job 9.
+5 of 92 steps (5%) done
+[Tue Aug 17 17:31:15 2021]
+Finished job 56.
+6 of 92 steps (7%) done
+[Tue Aug 17 17:31:15 2021]
+Finished job 54.
+7 of 92 steps (8%) done
+[Tue Aug 17 17:31:15 2021]
+Finished job 11.
+8 of 92 steps (9%) done
+[Tue Aug 17 17:31:15 2021]
+Finished job 12.
+9 of 92 steps (10%) done
+[Tue Aug 17 17:31:15 2021]
+Finished job 84.
+10 of 92 steps (11%) done
+
+[Tue Aug 17 17:31:15 2021]
+rule process_one_sample:
+    input: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/.internal/samples/21.somatosim.bam.txt
+    output: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/21.somatosim.qc.bam, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/21.somatosim.qc.bam.bai, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/21.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/21.somatosim.A.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/21.somatosim.C.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/21.somatosim.G.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/21.somatosim.T.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/21.somatosim.coverage.txt
+    jobid: 15
+    wildcards: sample=21.somatosim
+    resources: tmpdir=/tmp
+
+[Tue Aug 17 17:31:15 2021]
+rule process_one_sample:
+    input: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/.internal/samples/60.somatosim.bam.txt
+    output: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/60.somatosim.qc.bam, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/60.somatosim.qc.bam.bai, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/60.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/60.somatosim.A.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/60.somatosim.C.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/60.somatosim.G.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/60.somatosim.T.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/60.somatosim.coverage.txt
+    jobid: 58
+    wildcards: sample=60.somatosim
+    resources: tmpdir=/tmp
+
+[Tue Aug 17 17:31:15 2021]
+rule process_one_sample:
+    input: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/.internal/samples/62.somatosim.bam.txt
+    output: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/62.somatosim.qc.bam, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/62.somatosim.qc.bam.bai, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/62.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/62.somatosim.A.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/62.somatosim.C.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/62.somatosim.G.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/62.somatosim.T.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/62.somatosim.coverage.txt
+    jobid: 60
+    wildcards: sample=62.somatosim
+    resources: tmpdir=/tmp
+
+[Tue Aug 17 17:31:15 2021]
+rule process_one_sample:
+    input: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/.internal/samples/20.somatosim.bam.txt
+    output: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/20.somatosim.qc.bam, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/20.somatosim.qc.bam.bai, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/20.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/20.somatosim.A.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/20.somatosim.C.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/20.somatosim.G.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/20.somatosim.T.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/20.somatosim.coverage.txt
+    jobid: 14
+    wildcards: sample=20.somatosim
+    resources: tmpdir=/tmp
+
+[Tue Aug 17 17:31:15 2021]
+rule process_one_sample:
+    input: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/.internal/samples/89.somatosim.bam.txt
+    output: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/89.somatosim.qc.bam, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/89.somatosim.qc.bam.bai, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/89.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/89.somatosim.A.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/89.somatosim.C.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/89.somatosim.G.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/89.somatosim.T.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/89.somatosim.coverage.txt
+    jobid: 89
+    wildcards: sample=89.somatosim
+    resources: tmpdir=/tmp
+
+[Tue Aug 17 17:31:15 2021]
+rule process_one_sample:
+    input: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/.internal/samples/61.somatosim.bam.txt
+    output: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/61.somatosim.qc.bam, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/61.somatosim.qc.bam.bai, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/61.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/61.somatosim.A.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/61.somatosim.C.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/61.somatosim.G.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/61.somatosim.T.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/61.somatosim.coverage.txt
+    jobid: 59
+    wildcards: sample=61.somatosim
+    resources: tmpdir=/tmp
+
+[Tue Aug 17 17:31:15 2021]
+rule process_one_sample:
+    input: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/.internal/samples/22.somatosim.bam.txt
+    output: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/22.somatosim.qc.bam, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/22.somatosim.qc.bam.bai, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/22.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/22.somatosim.A.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/22.somatosim.C.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/22.somatosim.G.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/22.somatosim.T.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/22.somatosim.coverage.txt
+    jobid: 16
+    wildcards: sample=22.somatosim
+    resources: tmpdir=/tmp
+
+[Tue Aug 17 17:31:15 2021]
+rule process_one_sample:
+    input: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/.internal/samples/63.somatosim.bam.txt
+    output: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/63.somatosim.qc.bam, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/63.somatosim.qc.bam.bai, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/63.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/63.somatosim.A.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/63.somatosim.C.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/63.somatosim.G.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/63.somatosim.T.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/63.somatosim.coverage.txt
+    jobid: 61
+    wildcards: sample=63.somatosim
+    resources: tmpdir=/tmp
+
+[Tue Aug 17 17:31:28 2021]
+Finished job 61.
+11 of 92 steps (12%) done
+
+[Tue Aug 17 17:31:28 2021]
+rule process_one_sample:
+    input: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/.internal/samples/23.somatosim.bam.txt
+    output: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/23.somatosim.qc.bam, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/23.somatosim.qc.bam.bai, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/23.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/23.somatosim.A.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/23.somatosim.C.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/23.somatosim.G.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/23.somatosim.T.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/23.somatosim.coverage.txt
+    jobid: 17
+    wildcards: sample=23.somatosim
+    resources: tmpdir=/tmp
+
+[Tue Aug 17 17:31:28 2021]
+Finished job 88.
+12 of 92 steps (13%) done
+
+[Tue Aug 17 17:31:28 2021]
+rule process_one_sample:
+    input: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/.internal/samples/64.somatosim.bam.txt
+    output: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/64.somatosim.qc.bam, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/64.somatosim.qc.bam.bai, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/64.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/64.somatosim.A.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/64.somatosim.C.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/64.somatosim.G.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/64.somatosim.T.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/64.somatosim.coverage.txt
+    jobid: 62
+    wildcards: sample=64.somatosim
+    resources: tmpdir=/tmp
+
+[Tue Aug 17 17:31:28 2021]
+Finished job 87.
+13 of 92 steps (14%) done
+
+[Tue Aug 17 17:31:28 2021]
+rule process_one_sample:
+    input: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/.internal/samples/43.somatosim.bam.txt
+    output: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/43.somatosim.qc.bam, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/43.somatosim.qc.bam.bai, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/43.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/43.somatosim.A.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/43.somatosim.C.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/43.somatosim.G.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/43.somatosim.T.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/43.somatosim.coverage.txt
+    jobid: 39
+    wildcards: sample=43.somatosim
+    resources: tmpdir=/tmp
+
+[Tue Aug 17 17:31:29 2021]
+Finished job 58.
+14 of 92 steps (15%) done
+
+[Tue Aug 17 17:31:29 2021]
+rule process_one_sample:
+    input: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/.internal/samples/70.somatosim.bam.txt
+    output: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/70.somatosim.qc.bam, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/70.somatosim.qc.bam.bai, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/70.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/70.somatosim.A.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/70.somatosim.C.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/70.somatosim.G.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/70.somatosim.T.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/70.somatosim.coverage.txt
+    jobid: 69
+    wildcards: sample=70.somatosim
+    resources: tmpdir=/tmp
+
+[Tue Aug 17 17:31:38 2021]
+Finished job 59.
+15 of 92 steps (16%) done
+[Tue Aug 17 17:31:38 2021]
+Finished job 89.
+16 of 92 steps (17%) done
+
+[Tue Aug 17 17:31:38 2021]
+rule process_one_sample:
+    input: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/.internal/samples/50.somatosim.bam.txt
+    output: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/50.somatosim.qc.bam, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/50.somatosim.qc.bam.bai, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/50.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/50.somatosim.A.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/50.somatosim.C.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/50.somatosim.G.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/50.somatosim.T.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/50.somatosim.coverage.txt
+    jobid: 47
+    wildcards: sample=50.somatosim
+    resources: tmpdir=/tmp
+
+[Tue Aug 17 17:31:38 2021]
+rule process_one_sample:
+    input: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/.internal/samples/37.somatosim.bam.txt
+    output: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/37.somatosim.qc.bam, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/37.somatosim.qc.bam.bai, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/37.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/37.somatosim.A.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/37.somatosim.C.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/37.somatosim.G.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/37.somatosim.T.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/37.somatosim.coverage.txt
+    jobid: 32
+    wildcards: sample=37.somatosim
+    resources: tmpdir=/tmp
+
+[Tue Aug 17 17:31:38 2021]
+Finished job 16.
+17 of 92 steps (18%) done
+
+[Tue Aug 17 17:31:38 2021]
+rule process_one_sample:
+    input: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/.internal/samples/78.somatosim.bam.txt
+    output: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/78.somatosim.qc.bam, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/78.somatosim.qc.bam.bai, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/78.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/78.somatosim.A.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/78.somatosim.C.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/78.somatosim.G.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/78.somatosim.T.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/78.somatosim.coverage.txt
+    jobid: 77
+    wildcards: sample=78.somatosim
+    resources: tmpdir=/tmp
+
+[Tue Aug 17 17:31:38 2021]
+Finished job 60.
+18 of 92 steps (20%) done
+
+[Tue Aug 17 17:31:38 2021]
+rule process_one_sample:
+    input: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/.internal/samples/24.somatosim.bam.txt
+    output: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/24.somatosim.qc.bam, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/24.somatosim.qc.bam.bai, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/24.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/24.somatosim.A.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/24.somatosim.C.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/24.somatosim.G.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/24.somatosim.T.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/24.somatosim.coverage.txt
+    jobid: 18
+    wildcards: sample=24.somatosim
+    resources: tmpdir=/tmp
+
+[Tue Aug 17 17:31:41 2021]
+Finished job 14.
+19 of 92 steps (21%) done
+
+[Tue Aug 17 17:31:41 2021]
+rule process_one_sample:
+    input: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/.internal/samples/65.somatosim.bam.txt
+    output: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/65.somatosim.qc.bam, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/65.somatosim.qc.bam.bai, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/65.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/65.somatosim.A.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/65.somatosim.C.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/65.somatosim.G.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/65.somatosim.T.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/65.somatosim.coverage.txt
+    jobid: 63
+    wildcards: sample=65.somatosim
+    resources: tmpdir=/tmp
+
+[Tue Aug 17 17:31:42 2021]
+Finished job 15.
+20 of 92 steps (22%) done
+
+[Tue Aug 17 17:31:42 2021]
+rule process_one_sample:
+    input: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/.internal/samples/30.somatosim.bam.txt
+    output: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/30.somatosim.qc.bam, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/30.somatosim.qc.bam.bai, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/30.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/30.somatosim.A.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/30.somatosim.C.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/30.somatosim.G.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/30.somatosim.T.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/30.somatosim.coverage.txt
+    jobid: 25
+    wildcards: sample=30.somatosim
+    resources: tmpdir=/tmp
+
+[Tue Aug 17 17:31:50 2021]
+Finished job 62.
+21 of 92 steps (23%) done
+[Tue Aug 17 17:31:50 2021]
+Finished job 17.
+22 of 92 steps (24%) done
+
+[Tue Aug 17 17:31:50 2021]
+rule process_one_sample:
+    input: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/.internal/samples/44.somatosim.bam.txt
+    output: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/44.somatosim.qc.bam, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/44.somatosim.qc.bam.bai, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/44.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/44.somatosim.A.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/44.somatosim.C.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/44.somatosim.G.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/44.somatosim.T.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/44.somatosim.coverage.txt
+    jobid: 40
+    wildcards: sample=44.somatosim
+    resources: tmpdir=/tmp
+
+[Tue Aug 17 17:31:50 2021]
+rule process_one_sample:
+    input: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/.internal/samples/71.somatosim.bam.txt
+    output: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/71.somatosim.qc.bam, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/71.somatosim.qc.bam.bai, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/71.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/71.somatosim.A.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/71.somatosim.C.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/71.somatosim.G.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/71.somatosim.T.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/71.somatosim.coverage.txt
+    jobid: 70
+    wildcards: sample=71.somatosim
+    resources: tmpdir=/tmp
+
+[Tue Aug 17 17:31:51 2021]
+Finished job 69.
+23 of 92 steps (25%) done
+
+[Tue Aug 17 17:31:51 2021]
+rule process_one_sample:
+    input: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/.internal/samples/79.somatosim.bam.txt
+    output: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/79.somatosim.qc.bam, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/79.somatosim.qc.bam.bai, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/79.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/79.somatosim.A.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/79.somatosim.C.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/79.somatosim.G.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/79.somatosim.T.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/79.somatosim.coverage.txt
+    jobid: 78
+    wildcards: sample=79.somatosim
+    resources: tmpdir=/tmp
+
+[Tue Aug 17 17:31:51 2021]
+Finished job 39.
+24 of 92 steps (26%) done
+
+[Tue Aug 17 17:31:51 2021]
+rule process_one_sample:
+    input: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/.internal/samples/10.somatosim.bam.txt
+    output: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/10.somatosim.qc.bam, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/10.somatosim.qc.bam.bai, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/10.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/10.somatosim.A.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/10.somatosim.C.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/10.somatosim.G.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/10.somatosim.T.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/10.somatosim.coverage.txt
+    jobid: 3
+    wildcards: sample=10.somatosim
+    resources: tmpdir=/tmp
+
+[Tue Aug 17 17:32:00 2021]
+Finished job 47.
+25 of 92 steps (27%) done
+
+[Tue Aug 17 17:32:00 2021]
+rule process_one_sample:
+    input: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/.internal/samples/38.somatosim.bam.txt
+    output: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/38.somatosim.qc.bam, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/38.somatosim.qc.bam.bai, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/38.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/38.somatosim.A.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/38.somatosim.C.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/38.somatosim.G.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/38.somatosim.T.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/38.somatosim.coverage.txt
+    jobid: 33
+    wildcards: sample=38.somatosim
+    resources: tmpdir=/tmp
+
+[Tue Aug 17 17:32:01 2021]
+Finished job 18.
+26 of 92 steps (28%) done
+
+[Tue Aug 17 17:32:01 2021]
+rule process_one_sample:
+    input: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/.internal/samples/51.somatosim.bam.txt
+    output: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/51.somatosim.qc.bam, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/51.somatosim.qc.bam.bai, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/51.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/51.somatosim.A.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/51.somatosim.C.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/51.somatosim.G.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/51.somatosim.T.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/51.somatosim.coverage.txt
+    jobid: 48
+    wildcards: sample=51.somatosim
+    resources: tmpdir=/tmp
+
+[Tue Aug 17 17:32:02 2021]
+Finished job 77.
+27 of 92 steps (29%) done
+
+[Tue Aug 17 17:32:02 2021]
+rule process_one_sample:
+    input: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/.internal/samples/25.somatosim.bam.txt
+    output: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/25.somatosim.qc.bam, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/25.somatosim.qc.bam.bai, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/25.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/25.somatosim.A.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/25.somatosim.C.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/25.somatosim.G.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/25.somatosim.T.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/25.somatosim.coverage.txt
+    jobid: 19
+    wildcards: sample=25.somatosim
+    resources: tmpdir=/tmp
+
+[Tue Aug 17 17:32:03 2021]
+Finished job 25.
+28 of 92 steps (30%) done
+
+[Tue Aug 17 17:32:03 2021]
+rule process_one_sample:
+    input: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/.internal/samples/66.somatosim.bam.txt
+    output: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/66.somatosim.qc.bam, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/66.somatosim.qc.bam.bai, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/66.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/66.somatosim.A.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/66.somatosim.C.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/66.somatosim.G.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/66.somatosim.T.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/66.somatosim.coverage.txt
+    jobid: 64
+    wildcards: sample=66.somatosim
+    resources: tmpdir=/tmp
+
+[Tue Aug 17 17:32:05 2021]
+Finished job 32.
+29 of 92 steps (32%) done
+
+[Tue Aug 17 17:32:05 2021]
+rule process_one_sample:
+    input: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/.internal/samples/31.somatosim.bam.txt
+    output: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/31.somatosim.qc.bam, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/31.somatosim.qc.bam.bai, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/31.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/31.somatosim.A.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/31.somatosim.C.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/31.somatosim.G.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/31.somatosim.T.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/31.somatosim.coverage.txt
+    jobid: 26
+    wildcards: sample=31.somatosim
+    resources: tmpdir=/tmp
+
+[Tue Aug 17 17:32:10 2021]
+Finished job 63.
+30 of 92 steps (33%) done
+
+[Tue Aug 17 17:32:10 2021]
+rule process_one_sample:
+    input: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/.internal/samples/45.somatosim.bam.txt
+    output: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/45.somatosim.qc.bam, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/45.somatosim.qc.bam.bai, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/45.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/45.somatosim.A.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/45.somatosim.C.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/45.somatosim.G.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/45.somatosim.T.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/45.somatosim.coverage.txt
+    jobid: 41
+    wildcards: sample=45.somatosim
+    resources: tmpdir=/tmp
+
+[Tue Aug 17 17:32:13 2021]
+Finished job 78.
+31 of 92 steps (34%) done
+
+[Tue Aug 17 17:32:13 2021]
+rule process_one_sample:
+    input: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/.internal/samples/72.somatosim.bam.txt
+    output: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/72.somatosim.qc.bam, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/72.somatosim.qc.bam.bai, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/72.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/72.somatosim.A.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/72.somatosim.C.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/72.somatosim.G.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/72.somatosim.T.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/72.somatosim.coverage.txt
+    jobid: 71
+    wildcards: sample=72.somatosim
+    resources: tmpdir=/tmp
+
+[Tue Aug 17 17:32:17 2021]
+Finished job 40.
+32 of 92 steps (35%) done
+
+[Tue Aug 17 17:32:17 2021]
+rule process_one_sample:
+    input: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/.internal/samples/11.somatosim.bam.txt
+    output: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/11.somatosim.qc.bam, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/11.somatosim.qc.bam.bai, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/11.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/11.somatosim.A.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/11.somatosim.C.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/11.somatosim.G.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/11.somatosim.T.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/11.somatosim.coverage.txt
+    jobid: 4
+    wildcards: sample=11.somatosim
+    resources: tmpdir=/tmp
+
+[Tue Aug 17 17:32:17 2021]
+Finished job 70.
+33 of 92 steps (36%) done
+
+[Tue Aug 17 17:32:17 2021]
+rule process_one_sample:
+    input: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/.internal/samples/39.somatosim.bam.txt
+    output: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/39.somatosim.qc.bam, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/39.somatosim.qc.bam.bai, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/39.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/39.somatosim.A.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/39.somatosim.C.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/39.somatosim.G.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/39.somatosim.T.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/39.somatosim.coverage.txt
+    jobid: 34
+    wildcards: sample=39.somatosim
+    resources: tmpdir=/tmp
+
+[Tue Aug 17 17:32:19 2021]
+Finished job 3.
+34 of 92 steps (37%) done
+
+[Tue Aug 17 17:32:19 2021]
+rule process_one_sample:
+    input: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/.internal/samples/52.somatosim.bam.txt
+    output: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/52.somatosim.qc.bam, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/52.somatosim.qc.bam.bai, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/52.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/52.somatosim.A.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/52.somatosim.C.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/52.somatosim.G.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/52.somatosim.T.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/52.somatosim.coverage.txt
+    jobid: 49
+    wildcards: sample=52.somatosim
+    resources: tmpdir=/tmp
+
+[Tue Aug 17 17:32:23 2021]
+Finished job 33.
+35 of 92 steps (38%) done
+
+[Tue Aug 17 17:32:23 2021]
+rule process_one_sample:
+    input: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/.internal/samples/26.somatosim.bam.txt
+    output: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/26.somatosim.qc.bam, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/26.somatosim.qc.bam.bai, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/26.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/26.somatosim.A.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/26.somatosim.C.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/26.somatosim.G.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/26.somatosim.T.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/26.somatosim.coverage.txt
+    jobid: 20
+    wildcards: sample=26.somatosim
+    resources: tmpdir=/tmp
+
+[Tue Aug 17 17:32:23 2021]
+Finished job 48.
+36 of 92 steps (39%) done
+
+[Tue Aug 17 17:32:23 2021]
+rule process_one_sample:
+    input: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/.internal/samples/67.somatosim.bam.txt
+    output: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/67.somatosim.qc.bam, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/67.somatosim.qc.bam.bai, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/67.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/67.somatosim.A.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/67.somatosim.C.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/67.somatosim.G.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/67.somatosim.T.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/67.somatosim.coverage.txt
+    jobid: 65
+    wildcards: sample=67.somatosim
+    resources: tmpdir=/tmp
+
+[Tue Aug 17 17:32:24 2021]
+Finished job 19.
+37 of 92 steps (40%) done
+
+[Tue Aug 17 17:32:24 2021]
+rule process_one_sample:
+    input: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/.internal/samples/32.somatosim.bam.txt
+    output: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/32.somatosim.qc.bam, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/32.somatosim.qc.bam.bai, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/32.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/32.somatosim.A.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/32.somatosim.C.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/32.somatosim.G.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/32.somatosim.T.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/32.somatosim.coverage.txt
+    jobid: 27
+    wildcards: sample=32.somatosim
+    resources: tmpdir=/tmp
+
+[Tue Aug 17 17:32:25 2021]
+Finished job 64.
+38 of 92 steps (41%) done
+
+[Tue Aug 17 17:32:25 2021]
+rule process_one_sample:
+    input: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/.internal/samples/46.somatosim.bam.txt
+    output: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/46.somatosim.qc.bam, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/46.somatosim.qc.bam.bai, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/46.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/46.somatosim.A.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/46.somatosim.C.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/46.somatosim.G.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/46.somatosim.T.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/46.somatosim.coverage.txt
+    jobid: 42
+    wildcards: sample=46.somatosim
+    resources: tmpdir=/tmp
+
+[Tue Aug 17 17:32:27 2021]
+Finished job 26.
+39 of 92 steps (42%) done
+
+[Tue Aug 17 17:32:27 2021]
+rule process_one_sample:
+    input: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/.internal/samples/73.somatosim.bam.txt
+    output: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/73.somatosim.qc.bam, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/73.somatosim.qc.bam.bai, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/73.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/73.somatosim.A.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/73.somatosim.C.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/73.somatosim.G.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/73.somatosim.T.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/73.somatosim.coverage.txt
+    jobid: 72
+    wildcards: sample=73.somatosim
+    resources: tmpdir=/tmp
+
+[Tue Aug 17 17:32:32 2021]
+Finished job 41.
+40 of 92 steps (43%) done
+
+[Tue Aug 17 17:32:32 2021]
+rule process_one_sample:
+    input: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/.internal/samples/53.somatosim.bam.txt
+    output: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/53.somatosim.qc.bam, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/53.somatosim.qc.bam.bai, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/53.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/53.somatosim.A.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/53.somatosim.C.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/53.somatosim.G.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/53.somatosim.T.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/53.somatosim.coverage.txt
+    jobid: 50
+    wildcards: sample=53.somatosim
+    resources: tmpdir=/tmp
+
+[Tue Aug 17 17:32:35 2021]
+Finished job 34.
+41 of 92 steps (45%) done
+
+[Tue Aug 17 17:32:35 2021]
+rule process_one_sample:
+    input: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/.internal/samples/12.somatosim.bam.txt
+    output: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/12.somatosim.qc.bam, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/12.somatosim.qc.bam.bai, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/12.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/12.somatosim.A.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/12.somatosim.C.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/12.somatosim.G.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/12.somatosim.T.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/12.somatosim.coverage.txt
+    jobid: 5
+    wildcards: sample=12.somatosim
+    resources: tmpdir=/tmp
+
+[Tue Aug 17 17:32:41 2021]
+Finished job 71.
+42 of 92 steps (46%) done
+
+[Tue Aug 17 17:32:41 2021]
+rule process_one_sample:
+    input: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/.internal/samples/80.somatosim.bam.txt
+    output: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/80.somatosim.qc.bam, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/80.somatosim.qc.bam.bai, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/80.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/80.somatosim.A.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/80.somatosim.C.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/80.somatosim.G.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/80.somatosim.T.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/80.somatosim.coverage.txt
+    jobid: 80
+    wildcards: sample=80.somatosim
+    resources: tmpdir=/tmp
+
+[Tue Aug 17 17:32:46 2021]
+Finished job 4.
+43 of 92 steps (47%) done
+
+[Tue Aug 17 17:32:46 2021]
+rule process_one_sample:
+    input: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/.internal/samples/27.somatosim.bam.txt
+    output: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/27.somatosim.qc.bam, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/27.somatosim.qc.bam.bai, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/27.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/27.somatosim.A.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/27.somatosim.C.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/27.somatosim.G.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/27.somatosim.T.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/27.somatosim.coverage.txt
+    jobid: 21
+    wildcards: sample=27.somatosim
+    resources: tmpdir=/tmp
+
+[Tue Aug 17 17:32:47 2021]
+Finished job 65.
+44 of 92 steps (48%) done
+
+[Tue Aug 17 17:32:47 2021]
+rule process_one_sample:
+    input: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/.internal/samples/68.somatosim.bam.txt
+    output: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/68.somatosim.qc.bam, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/68.somatosim.qc.bam.bai, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/68.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/68.somatosim.A.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/68.somatosim.C.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/68.somatosim.G.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/68.somatosim.T.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/68.somatosim.coverage.txt
+    jobid: 66
+    wildcards: sample=68.somatosim
+    resources: tmpdir=/tmp
+
+[Tue Aug 17 17:32:47 2021]
+Finished job 49.
+45 of 92 steps (49%) done
+
+[Tue Aug 17 17:32:47 2021]
+rule process_one_sample:
+    input: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/.internal/samples/33.somatosim.bam.txt
+    output: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/33.somatosim.qc.bam, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/33.somatosim.qc.bam.bai, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/33.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/33.somatosim.A.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/33.somatosim.C.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/33.somatosim.G.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/33.somatosim.T.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/33.somatosim.coverage.txt
+    jobid: 28
+    wildcards: sample=33.somatosim
+    resources: tmpdir=/tmp
+
+[Tue Aug 17 17:32:47 2021]
+Finished job 27.
+46 of 92 steps (50%) done
+
+[Tue Aug 17 17:32:47 2021]
+rule process_one_sample:
+    input: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/.internal/samples/47.somatosim.bam.txt
+    output: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/47.somatosim.qc.bam, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/47.somatosim.qc.bam.bai, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/47.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/47.somatosim.A.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/47.somatosim.C.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/47.somatosim.G.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/47.somatosim.T.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/47.somatosim.coverage.txt
+    jobid: 43
+    wildcards: sample=47.somatosim
+    resources: tmpdir=/tmp
+
+[Tue Aug 17 17:32:48 2021]
+Finished job 42.
+47 of 92 steps (51%) done
+
+[Tue Aug 17 17:32:48 2021]
+rule process_one_sample:
+    input: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/.internal/samples/74.somatosim.bam.txt
+    output: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/74.somatosim.qc.bam, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/74.somatosim.qc.bam.bai, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/74.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/74.somatosim.A.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/74.somatosim.C.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/74.somatosim.G.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/74.somatosim.T.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/74.somatosim.coverage.txt
+    jobid: 73
+    wildcards: sample=74.somatosim
+    resources: tmpdir=/tmp
+
+[Tue Aug 17 17:32:50 2021]
+Finished job 72.
+48 of 92 steps (52%) done
+
+[Tue Aug 17 17:32:50 2021]
+rule process_one_sample:
+    input: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/.internal/samples/13.somatosim.bam.txt
+    output: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/13.somatosim.qc.bam, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/13.somatosim.qc.bam.bai, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/13.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/13.somatosim.A.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/13.somatosim.C.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/13.somatosim.G.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/13.somatosim.T.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/13.somatosim.coverage.txt
+    jobid: 6
+    wildcards: sample=13.somatosim
+    resources: tmpdir=/tmp
+
+[Tue Aug 17 17:32:51 2021]
+Finished job 20.
+49 of 92 steps (53%) done
+
+[Tue Aug 17 17:32:51 2021]
+rule process_one_sample:
+    input: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/.internal/samples/40.somatosim.bam.txt
+    output: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/40.somatosim.qc.bam, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/40.somatosim.qc.bam.bai, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/40.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/40.somatosim.A.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/40.somatosim.C.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/40.somatosim.G.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/40.somatosim.T.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/40.somatosim.coverage.txt
+    jobid: 36
+    wildcards: sample=40.somatosim
+    resources: tmpdir=/tmp
+
+[Tue Aug 17 17:32:52 2021]
+Finished job 5.
+50 of 92 steps (54%) done
+
+[Tue Aug 17 17:32:52 2021]
+rule process_one_sample:
+    input: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/.internal/samples/54.somatosim.bam.txt
+    output: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/54.somatosim.qc.bam, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/54.somatosim.qc.bam.bai, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/54.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/54.somatosim.A.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/54.somatosim.C.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/54.somatosim.G.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/54.somatosim.T.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/54.somatosim.coverage.txt
+    jobid: 51
+    wildcards: sample=54.somatosim
+    resources: tmpdir=/tmp
+
+[Tue Aug 17 17:32:58 2021]
+Finished job 50.
+51 of 92 steps (55%) done
+
+[Tue Aug 17 17:32:58 2021]
+rule process_one_sample:
+    input: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/.internal/samples/81.somatosim.bam.txt
+    output: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/81.somatosim.qc.bam, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/81.somatosim.qc.bam.bai, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/81.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/81.somatosim.A.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/81.somatosim.C.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/81.somatosim.G.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/81.somatosim.T.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/81.somatosim.coverage.txt
+    jobid: 81
+    wildcards: sample=81.somatosim
+    resources: tmpdir=/tmp
+
+[Tue Aug 17 17:33:09 2021]
+Finished job 80.
+52 of 92 steps (57%) done
+
+[Tue Aug 17 17:33:09 2021]
+rule process_one_sample:
+    input: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/.internal/samples/28.somatosim.bam.txt
+    output: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/28.somatosim.qc.bam, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/28.somatosim.qc.bam.bai, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/28.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/28.somatosim.A.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/28.somatosim.C.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/28.somatosim.G.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/28.somatosim.T.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/28.somatosim.coverage.txt
+    jobid: 22
+    wildcards: sample=28.somatosim
+    resources: tmpdir=/tmp
+
+[Tue Aug 17 17:33:09 2021]
+Finished job 21.
+53 of 92 steps (58%) done
+
+[Tue Aug 17 17:33:09 2021]
+rule process_one_sample:
+    input: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/.internal/samples/69.somatosim.bam.txt
+    output: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/69.somatosim.qc.bam, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/69.somatosim.qc.bam.bai, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/69.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/69.somatosim.A.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/69.somatosim.C.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/69.somatosim.G.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/69.somatosim.T.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/69.somatosim.coverage.txt
+    jobid: 67
+    wildcards: sample=69.somatosim
+    resources: tmpdir=/tmp
+
+[Tue Aug 17 17:33:14 2021]
+Finished job 6.
+54 of 92 steps (59%) done
+
+[Tue Aug 17 17:33:14 2021]
+rule process_one_sample:
+    input: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/.internal/samples/34.somatosim.bam.txt
+    output: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/34.somatosim.qc.bam, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/34.somatosim.qc.bam.bai, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/34.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/34.somatosim.A.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/34.somatosim.C.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/34.somatosim.G.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/34.somatosim.T.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/34.somatosim.coverage.txt
+    jobid: 29
+    wildcards: sample=34.somatosim
+    resources: tmpdir=/tmp
+
+[Tue Aug 17 17:33:14 2021]
+Finished job 66.
+55 of 92 steps (60%) done
+
+[Tue Aug 17 17:33:14 2021]
+rule process_one_sample:
+    input: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/.internal/samples/48.somatosim.bam.txt
+    output: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/48.somatosim.qc.bam, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/48.somatosim.qc.bam.bai, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/48.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/48.somatosim.A.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/48.somatosim.C.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/48.somatosim.G.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/48.somatosim.T.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/48.somatosim.coverage.txt
+    jobid: 44
+    wildcards: sample=48.somatosim
+    resources: tmpdir=/tmp
+
+[Tue Aug 17 17:33:15 2021]
+Finished job 28.
+56 of 92 steps (61%) done
+
+[Tue Aug 17 17:33:15 2021]
+rule process_one_sample:
+    input: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/.internal/samples/75.somatosim.bam.txt
+    output: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/75.somatosim.qc.bam, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/75.somatosim.qc.bam.bai, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/75.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/75.somatosim.A.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/75.somatosim.C.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/75.somatosim.G.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/75.somatosim.T.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/75.somatosim.coverage.txt
+    jobid: 74
+    wildcards: sample=75.somatosim
+    resources: tmpdir=/tmp
+
+[Tue Aug 17 17:33:15 2021]
+Finished job 43.
+57 of 92 steps (62%) done
+
+[Tue Aug 17 17:33:15 2021]
+rule process_one_sample:
+    input: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/.internal/samples/14.somatosim.bam.txt
+    output: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/14.somatosim.qc.bam, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/14.somatosim.qc.bam.bai, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/14.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/14.somatosim.A.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/14.somatosim.C.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/14.somatosim.G.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/14.somatosim.T.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/14.somatosim.coverage.txt
+    jobid: 7
+    wildcards: sample=14.somatosim
+    resources: tmpdir=/tmp
+
+[Tue Aug 17 17:33:16 2021]
+Finished job 73.
+58 of 92 steps (63%) done
+
+[Tue Aug 17 17:33:16 2021]
+rule process_one_sample:
+    input: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/.internal/samples/41.somatosim.bam.txt
+    output: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/41.somatosim.qc.bam, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/41.somatosim.qc.bam.bai, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/41.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/41.somatosim.A.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/41.somatosim.C.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/41.somatosim.G.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/41.somatosim.T.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/41.somatosim.coverage.txt
+    jobid: 37
+    wildcards: sample=41.somatosim
+    resources: tmpdir=/tmp
+
+[Tue Aug 17 17:33:17 2021]
+Finished job 36.
+59 of 92 steps (64%) done
+
+[Tue Aug 17 17:33:17 2021]
+rule process_one_sample:
+    input: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/.internal/samples/55.somatosim.bam.txt
+    output: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/55.somatosim.qc.bam, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/55.somatosim.qc.bam.bai, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/55.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/55.somatosim.A.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/55.somatosim.C.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/55.somatosim.G.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/55.somatosim.T.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/55.somatosim.coverage.txt
+    jobid: 52
+    wildcards: sample=55.somatosim
+    resources: tmpdir=/tmp
+
+[Tue Aug 17 17:33:19 2021]
+Finished job 81.
+60 of 92 steps (65%) done
+
+[Tue Aug 17 17:33:19 2021]
+rule process_one_sample:
+    input: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/.internal/samples/82.somatosim.bam.txt
+    output: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/82.somatosim.qc.bam, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/82.somatosim.qc.bam.bai, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/82.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/82.somatosim.A.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/82.somatosim.C.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/82.somatosim.G.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/82.somatosim.T.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/82.somatosim.coverage.txt
+    jobid: 82
+    wildcards: sample=82.somatosim
+    resources: tmpdir=/tmp
+
+[Tue Aug 17 17:33:19 2021]
+Finished job 51.
+61 of 92 steps (66%) done
+
+[Tue Aug 17 17:33:19 2021]
+rule process_one_sample:
+    input: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/.internal/samples/42.somatosim.bam.txt
+    output: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/42.somatosim.qc.bam, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/42.somatosim.qc.bam.bai, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/42.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/42.somatosim.A.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/42.somatosim.C.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/42.somatosim.G.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/42.somatosim.T.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/42.somatosim.coverage.txt
+    jobid: 38
+    wildcards: sample=42.somatosim
+    resources: tmpdir=/tmp
+
+[Tue Aug 17 17:33:25 2021]
+Finished job 44.
+62 of 92 steps (67%) done
+
+[Tue Aug 17 17:33:25 2021]
+rule process_one_sample:
+    input: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/.internal/samples/29.somatosim.bam.txt
+    output: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/29.somatosim.qc.bam, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/29.somatosim.qc.bam.bai, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/29.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/29.somatosim.A.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/29.somatosim.C.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/29.somatosim.G.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/29.somatosim.T.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/29.somatosim.coverage.txt
+    jobid: 23
+    wildcards: sample=29.somatosim
+    resources: tmpdir=/tmp
+
+[Tue Aug 17 17:33:30 2021]
+Finished job 22.
+63 of 92 steps (68%) done
+
+[Tue Aug 17 17:33:30 2021]
+rule process_one_sample:
+    input: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/.internal/samples/76.somatosim.bam.txt
+    output: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/76.somatosim.qc.bam, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/76.somatosim.qc.bam.bai, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/76.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/76.somatosim.A.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/76.somatosim.C.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/76.somatosim.G.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/76.somatosim.T.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/76.somatosim.coverage.txt
+    jobid: 75
+    wildcards: sample=76.somatosim
+    resources: tmpdir=/tmp
+
+[Tue Aug 17 17:33:32 2021]
+Finished job 67.
+64 of 92 steps (70%) done
+
+[Tue Aug 17 17:33:32 2021]
+rule process_one_sample:
+    input: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/.internal/samples/35.somatosim.bam.txt
+    output: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/35.somatosim.qc.bam, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/35.somatosim.qc.bam.bai, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/35.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/35.somatosim.A.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/35.somatosim.C.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/35.somatosim.G.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/35.somatosim.T.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/35.somatosim.coverage.txt
+    jobid: 30
+    wildcards: sample=35.somatosim
+    resources: tmpdir=/tmp
+
+[Tue Aug 17 17:33:35 2021]
+Finished job 29.
+65 of 92 steps (71%) done
+
+[Tue Aug 17 17:33:35 2021]
+rule process_one_sample:
+    input: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/.internal/samples/49.somatosim.bam.txt
+    output: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/49.somatosim.qc.bam, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/49.somatosim.qc.bam.bai, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/49.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/49.somatosim.A.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/49.somatosim.C.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/49.somatosim.G.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/49.somatosim.T.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/49.somatosim.coverage.txt
+    jobid: 45
+    wildcards: sample=49.somatosim
+    resources: tmpdir=/tmp
+
+[Tue Aug 17 17:33:37 2021]
+Finished job 7.
+66 of 92 steps (72%) done
+
+[Tue Aug 17 17:33:37 2021]
+rule process_one_sample:
+    input: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/.internal/samples/15.somatosim.bam.txt
+    output: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/15.somatosim.qc.bam, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/15.somatosim.qc.bam.bai, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/15.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/15.somatosim.A.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/15.somatosim.C.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/15.somatosim.G.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/15.somatosim.T.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/15.somatosim.coverage.txt
+    jobid: 8
+    wildcards: sample=15.somatosim
+    resources: tmpdir=/tmp
+
+[Tue Aug 17 17:33:42 2021]
+Finished job 38.
+67 of 92 steps (73%) done
+
+[Tue Aug 17 17:33:42 2021]
+rule process_one_sample:
+    input: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/.internal/samples/56.somatosim.bam.txt
+    output: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/56.somatosim.qc.bam, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/56.somatosim.qc.bam.bai, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/56.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/56.somatosim.A.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/56.somatosim.C.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/56.somatosim.G.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/56.somatosim.T.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/56.somatosim.coverage.txt
+    jobid: 53
+    wildcards: sample=56.somatosim
+    resources: tmpdir=/tmp
+
+[Tue Aug 17 17:33:43 2021]
+Finished job 74.
+68 of 92 steps (74%) done
+
+[Tue Aug 17 17:33:43 2021]
+rule process_one_sample:
+    input: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/.internal/samples/83.somatosim.bam.txt
+    output: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/83.somatosim.qc.bam, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/83.somatosim.qc.bam.bai, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/83.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/83.somatosim.A.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/83.somatosim.C.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/83.somatosim.G.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/83.somatosim.T.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/83.somatosim.coverage.txt
+    jobid: 83
+    wildcards: sample=83.somatosim
+    resources: tmpdir=/tmp
+
+[Tue Aug 17 17:33:43 2021]
+Finished job 37.
+69 of 92 steps (75%) done
+
+[Tue Aug 17 17:33:43 2021]
+rule process_one_sample:
+    input: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/.internal/samples/36.somatosim.bam.txt
+    output: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/36.somatosim.qc.bam, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/36.somatosim.qc.bam.bai, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/36.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/36.somatosim.A.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/36.somatosim.C.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/36.somatosim.G.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/36.somatosim.T.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/36.somatosim.coverage.txt
+    jobid: 31
+    wildcards: sample=36.somatosim
+    resources: tmpdir=/tmp
+
+[Tue Aug 17 17:33:45 2021]
+Finished job 52.
+70 of 92 steps (76%) done
+
+[Tue Aug 17 17:33:45 2021]
+rule process_one_sample:
+    input: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/.internal/samples/77.somatosim.bam.txt
+    output: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/77.somatosim.qc.bam, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/77.somatosim.qc.bam.bai, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/77.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/77.somatosim.A.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/77.somatosim.C.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/77.somatosim.G.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/77.somatosim.T.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/77.somatosim.coverage.txt
+    jobid: 76
+    wildcards: sample=77.somatosim
+    resources: tmpdir=/tmp
+
+[Tue Aug 17 17:33:45 2021]
+Finished job 82.
+71 of 92 steps (77%) done
+
+[Tue Aug 17 17:33:45 2021]
+rule process_one_sample:
+    input: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/.internal/samples/8.somatosim.bam.txt
+    output: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/8.somatosim.qc.bam, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/8.somatosim.qc.bam.bai, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/8.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/8.somatosim.A.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/8.somatosim.C.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/8.somatosim.G.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/8.somatosim.T.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/8.somatosim.coverage.txt
+    jobid: 90
+    wildcards: sample=8.somatosim
+    resources: tmpdir=/tmp
+
+[Tue Aug 17 17:33:46 2021]
+Finished job 23.
+72 of 92 steps (78%) done
+
+[Tue Aug 17 17:33:46 2021]
+rule process_one_sample:
+    input: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/.internal/samples/6.somatosim.bam.txt
+    output: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/6.somatosim.qc.bam, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/6.somatosim.qc.bam.bai, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/6.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/6.somatosim.A.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/6.somatosim.C.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/6.somatosim.G.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/6.somatosim.T.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/6.somatosim.coverage.txt
+    jobid: 68
+    wildcards: sample=6.somatosim
+    resources: tmpdir=/tmp
+
+[Tue Aug 17 17:33:58 2021]
+Finished job 75.
+73 of 92 steps (79%) done
+
+[Tue Aug 17 17:33:58 2021]
+rule process_one_sample:
+    input: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/.internal/samples/2.somatosim.bam.txt
+    output: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/2.somatosim.qc.bam, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/2.somatosim.qc.bam.bai, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/2.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/2.somatosim.A.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/2.somatosim.C.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/2.somatosim.G.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/2.somatosim.T.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/2.somatosim.coverage.txt
+    jobid: 24
+    wildcards: sample=2.somatosim
+    resources: tmpdir=/tmp
+
+[Tue Aug 17 17:33:59 2021]
+Finished job 30.
+74 of 92 steps (80%) done
+
+[Tue Aug 17 17:33:59 2021]
+rule process_one_sample:
+    input: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/.internal/samples/0.somatosim.bam.txt
+    output: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/0.somatosim.qc.bam, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/0.somatosim.qc.bam.bai, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/0.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/0.somatosim.A.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/0.somatosim.C.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/0.somatosim.G.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/0.somatosim.T.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/0.somatosim.coverage.txt
+    jobid: 2
+    wildcards: sample=0.somatosim
+    resources: tmpdir=/tmp
+
+[Tue Aug 17 17:34:00 2021]
+Finished job 8.
+75 of 92 steps (82%) done
+
+[Tue Aug 17 17:34:00 2021]
+rule process_one_sample:
+    input: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/.internal/samples/7.somatosim.bam.txt
+    output: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/7.somatosim.qc.bam, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/7.somatosim.qc.bam.bai, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/7.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/7.somatosim.A.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/7.somatosim.C.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/7.somatosim.G.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/7.somatosim.T.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/7.somatosim.coverage.txt
+    jobid: 79
+    wildcards: sample=7.somatosim
+    resources: tmpdir=/tmp
+
+[Tue Aug 17 17:34:03 2021]
+Finished job 45.
+76 of 92 steps (83%) done
+
+[Tue Aug 17 17:34:03 2021]
+rule process_one_sample:
+    input: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/.internal/samples/1.somatosim.bam.txt
+    output: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/1.somatosim.qc.bam, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/1.somatosim.qc.bam.bai, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/1.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/1.somatosim.A.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/1.somatosim.C.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/1.somatosim.G.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/1.somatosim.T.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/1.somatosim.coverage.txt
+    jobid: 13
+    wildcards: sample=1.somatosim
+    resources: tmpdir=/tmp
+
+[Tue Aug 17 17:34:04 2021]
+Finished job 53.
+77 of 92 steps (84%) done
+
+[Tue Aug 17 17:34:04 2021]
+rule process_one_sample:
+    input: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/.internal/samples/9.somatosim.bam.txt
+    output: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/9.somatosim.qc.bam, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/9.somatosim.qc.bam.bai, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/9.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/9.somatosim.A.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/9.somatosim.C.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/9.somatosim.G.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/9.somatosim.T.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/9.somatosim.coverage.txt
+    jobid: 91
+    wildcards: sample=9.somatosim
+    resources: tmpdir=/tmp
+
+[Tue Aug 17 17:34:09 2021]
+Finished job 68.
+78 of 92 steps (85%) done
+
+[Tue Aug 17 17:34:09 2021]
+rule process_one_sample:
+    input: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/.internal/samples/4.somatosim.bam.txt
+    output: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/4.somatosim.qc.bam, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/4.somatosim.qc.bam.bai, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/4.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/4.somatosim.A.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/4.somatosim.C.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/4.somatosim.G.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/4.somatosim.T.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/4.somatosim.coverage.txt
+    jobid: 46
+    wildcards: sample=4.somatosim
+    resources: tmpdir=/tmp
+
+[Tue Aug 17 17:34:09 2021]
+Finished job 83.
+79 of 92 steps (86%) done
+
+[Tue Aug 17 17:34:09 2021]
+rule process_one_sample:
+    input: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/.internal/samples/3.somatosim.bam.txt
+    output: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/3.somatosim.qc.bam, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/3.somatosim.qc.bam.bai, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/3.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/3.somatosim.A.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/3.somatosim.C.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/3.somatosim.G.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/3.somatosim.T.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/3.somatosim.coverage.txt
+    jobid: 35
+    wildcards: sample=3.somatosim
+    resources: tmpdir=/tmp
+
+[Tue Aug 17 17:34:10 2021]
+Finished job 31.
+80 of 92 steps (87%) done
+
+[Tue Aug 17 17:34:10 2021]
+rule process_one_sample:
+    input: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/.internal/samples/5.somatosim.bam.txt
+    output: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/5.somatosim.qc.bam, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/ready_bam/5.somatosim.qc.bam.bai, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/5.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/5.somatosim.A.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/5.somatosim.C.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/5.somatosim.G.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/5.somatosim.T.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/sparse_matrices/5.somatosim.coverage.txt
+    jobid: 57
+    wildcards: sample=5.somatosim
+    resources: tmpdir=/tmp
+
+[Tue Aug 17 17:34:11 2021]
+Finished job 76.
+81 of 92 steps (88%) done
+[Tue Aug 17 17:34:12 2021]
+Finished job 90.
+82 of 92 steps (89%) done
+[Tue Aug 17 17:34:15 2021]
+Finished job 91.
+83 of 92 steps (90%) done
+[Tue Aug 17 17:34:25 2021]
+Finished job 13.
+84 of 92 steps (91%) done
+[Tue Aug 17 17:34:26 2021]
+Finished job 24.
+85 of 92 steps (92%) done
+[Tue Aug 17 17:34:27 2021]
+Finished job 2.
+86 of 92 steps (93%) done
+[Tue Aug 17 17:34:28 2021]
+Finished job 79.
+87 of 92 steps (95%) done
+[Tue Aug 17 17:34:30 2021]
+Finished job 46.
+88 of 92 steps (96%) done
+[Tue Aug 17 17:34:30 2021]
+Finished job 35.
+89 of 92 steps (97%) done
+[Tue Aug 17 17:34:36 2021]
+Finished job 57.
+90 of 92 steps (98%) done
+
+[Tue Aug 17 17:34:36 2021]
+rule make_sample_list:
+    input: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/0.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/10.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/11.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/12.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/13.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/14.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/15.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/16.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/17.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/18.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/19.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/1.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/20.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/21.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/22.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/23.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/24.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/25.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/26.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/27.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/28.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/29.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/2.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/30.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/31.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/32.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/33.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/34.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/35.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/36.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/37.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/38.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/39.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/3.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/40.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/41.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/42.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/43.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/44.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/45.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/46.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/47.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/48.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/49.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/4.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/50.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/51.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/52.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/53.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/54.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/55.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/56.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/57.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/58.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/59.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/5.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/60.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/61.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/62.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/63.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/64.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/65.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/66.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/67.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/68.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/69.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/6.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/70.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/71.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/72.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/73.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/74.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/75.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/76.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/77.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/78.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/79.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/7.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/80.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/81.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/82.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/83.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/84.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/85.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/86.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/87.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/88.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/89.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/8.somatosim.depth.txt, simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/qc/depth/9.somatosim.depth.txt
+    output: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/scattered.allSamples.txt
+    jobid: 1
+    resources: tmpdir=/tmp
+
+[Tue Aug 17 17:34:37 2021]
+Finished job 1.
+91 of 92 steps (99%) done
+
+[Tue Aug 17 17:34:37 2021]
+localrule all:
+    input: simulation_Doge/5_clonal_variants_fixedAF10pct/mgatk/temp/scattered.allSamples.txt
+    jobid: 0
+    resources: tmpdir=/tmp
+
+[Tue Aug 17 17:34:37 2021]
+Finished job 0.
+92 of 92 steps (100%) done
+Complete log: /usersdata/aaronkwc/.snakemake/log/2021-08-17T173046.401505.snakemake.log

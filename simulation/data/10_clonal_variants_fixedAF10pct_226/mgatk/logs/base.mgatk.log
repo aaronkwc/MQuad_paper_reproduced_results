@@ -1,0 +1,12 @@
+Sun Aug 29 00:34:52 HKT 2021: Starting analysis with mgatk
+Sun Aug 29 00:34:52 HKT 2021: mgatk will process 90 samples
+Sun Aug 29 00:34:52 HKT 2021: Processing samples with 10 threads
+Sun Aug 29 00:35:01 HKT 2021: mgatk successfully processed the supplied .bam files
+Sun Aug 29 00:35:14 HKT 2021: Successfully created final output files
+Sun Aug 29 00:35:14 HKT 2021: Intermediate files successfully removed.
+Sun Aug 29 01:23:53 HKT 2021: Starting analysis with mgatk
+Sun Aug 29 01:23:53 HKT 2021: mgatk will process 90 samples
+Sun Aug 29 01:23:53 HKT 2021: Processing samples with 10 threads
+Sun Aug 29 01:29:12 HKT 2021: mgatk successfully processed the supplied .bam files
+Sun Aug 29 01:30:08 HKT 2021: Successfully created final output files
+Sun Aug 29 01:30:12 HKT 2021: Intermediate files successfully removed.

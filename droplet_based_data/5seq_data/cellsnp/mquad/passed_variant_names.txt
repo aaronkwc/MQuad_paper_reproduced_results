@@ -1,0 +1,19 @@
+1566     chrM_1819_T_C
+7815     chrM_8615_T_C
+1671     chrM_1924_T_C
+7745     chrM_8545_G_A
+1513     chrM_1766_T_C
+825      chrM_1027_A_G
+2521     chrM_2774_C_T
+2364     chrM_2617_T_G
+5352     chrM_6014_T_C
+2421     chrM_2674_T_C
+2437     chrM_2690_G_A
+2920     chrM_3173_G_A
+5311     chrM_5973_G_A
+7810     chrM_8610_T_C
+1077     chrM_1298_T_C
+9782    chrM_10711_T_C
+2925     chrM_3178_T_A
+2923     chrM_3176_A_T
+Name: variant_name, dtype: object
