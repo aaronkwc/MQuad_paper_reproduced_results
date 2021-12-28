@@ -10,3 +10,6 @@ mkn45/data/compare/cellsnp_sixth_depth/cellSNP.cells.vcf.gz
 mkn45/data/compare/cellsnp_third_depth/cellSNP.cells.vcf.gz
 simulation/data/10_clonal_variants_fixedAF10pct/cellsnp/cellSNP.base.vcf.gz
 simulation/data/10_clonal_variants_fixedAF10pct/cellsnp/cellSNP.cells.vcf.gz
+CRC_mtscATAC/data/cellsnp_masked/cellSNP.tag.DP.mtx
+CRC_mtscATAC/data/CRC_masked.rds
+kim/data/cellsnp_rerun_rCRS/
